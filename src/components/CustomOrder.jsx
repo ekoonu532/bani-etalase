@@ -46,7 +46,7 @@ const CustomOrder = () => {
     const message = `*Pemesanan Custom dari Website*%0A%0A*Nama:* ${formData.name}%0A*Email:* ${formData.email}%0A*Telepon:* ${formData.phone}%0A*Produk:* ${formData.product}%0A*Ukuran:* ${formData.dimensions}%0A*Material:* ${formData.materials.join(', ')}%0A*Budget:* ${formData.budget}%0A*Timeline:* ${formData.timeline}%0A*Detail Pesanan:* ${formData.message}`;
     
     // Open WhatsApp with pre-filled message
-    window.open(`https://wa.me/6281234567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/6285201981511?text=${message}`, '_blank');
     
     // Reset form
     setFormData({
@@ -220,7 +220,7 @@ const CustomOrder = () => {
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div>
+                {/* <div>
                   <label htmlFor="budget" className="block text-gray-700 mb-2">Budget</label>
                   <select
                     id="budget"
@@ -237,7 +237,7 @@ const CustomOrder = () => {
                     <option value="> Rp 10 juta"> Rp 10 juta</option>
                     <option value="Custom">Custom</option>
                   </select>
-                </div>
+                </div> */}
                 
                 <div>
                   <label htmlFor="timeline" className="block text-gray-700 mb-2">Estimasi Waktu Pengerjaan</label>
