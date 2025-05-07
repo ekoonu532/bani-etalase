@@ -1,0 +1,10 @@
+# robots.txt for Bani Etalase
+
+User-agent: *
+Allow: /
+
+# Disallow admin area
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://www.banietalase.com/sitemap.xml
