@@ -8,25 +8,25 @@ const Products = () => {
       id: 1,
       title: "Etalase Toko",
       description: "Etalase kaca premium untuk display produk toko Anda",
-      image: "/api/placeholder/400/300"
+      image: "/assets/images/etalase-toko.jpg"
     },
     {
       id: 2,
       title: "Lemari & Rak",
       description: "Lemari pakaian, rak piring & rak buku custom",
-      image: "/api/placeholder/400/300"
+      image: "/assets/images/lemari.jpg"
     },
     {
       id: 3,
       title: "Kitchen Set",
       description: "Kitchen set modern dengan desain sesuai kebutuhan",
-      image: "/api/placeholder/400/300"
+      image: "/assets/images/kitchen-set.jpg"
     },
     {
       id: 4,
       title: "Kusen Aluminium",
       description: "Kusen, pintu & jendela aluminium berkualitas",
-      image: "/api/placeholder/400/300"
+      image: "/assets/images/kusen.jpg"
     },
     {
       id: 5,

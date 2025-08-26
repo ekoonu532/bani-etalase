@@ -5,10 +5,8 @@ import { useProjectData, categories } from './ProjectDataContext';
 const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   
-  // Get projects from context
   const { projects } = useProjectData();
   
-  // Filter projects based on selected category
   const filteredProjects = selectedCategory === 'all' 
     ? projects 
     : projects.filter(project => project.category === selectedCategory);
